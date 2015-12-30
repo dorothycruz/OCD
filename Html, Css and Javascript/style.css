@@ -1,0 +1,304 @@
+body {
+  background-color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+  overflow: hidden;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*The first time I saw her, everthing in my head went quiet*/
+.rosado {
+  background-color: #ccefff;
+}
+.colorful {
+  webkit-animation: color_body 1s infinite alternate;
+	-moz-animation: color_body 1s infinite alternate;
+	-ms-animation: color_body 1s infinite alternate;
+	-o-animation: color_body 1s infinite alternate;
+	animation: color_body 1s infinite alternate;
+}
+
+@-webkit-keyframes color_body {
+	from { background-color: #ff1a75; }
+	to { background-color: #FFFF66; }
+}
+@-moz-keyframes color_body {
+	from { background-color: #ff1a75; }
+	to { background-color: #FFFF66; }
+}
+@-ms-keyframes color_body {
+	from { background-color: #ff1a75; }
+	to { background-color: #FFFF66; }
+}
+@-o-keyframes color_body {
+	from { background-color: #ff1a75; }
+	to { background-color: #FFFF66; }
+}
+@keyframes color_body {
+	from { background-color: #ff1a75; }
+	to { background-color: #FFFF66; }
+}
+
+.square {
+  font-size: 5em;
+  color: #000000;
+  text-align: center;
+  cursor: pointer;
+  transition: 3s;
+}
+
+.square2 {
+  color: #ffffff;
+}
+
+.first {
+  width: 500px;
+  height: 100px;
+  margin-left: 30%;
+  margin-top: 15%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.star {
+  font-size: 5em;
+  text-align: center;
+  cursor: pointer;
+  animation-name: shine;
+  animation-duration: 4s;
+  color: #FFFF66;
+}
+
+.star2 {
+  color: #000000;
+}
+
+@-webkit-keyframes shine {
+    from {color: #ffffff;}
+    to {color: #FFFF66;}
+}
+
+#drag1, #drag2, #drag3 {
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+  font-weight: bolder;
+  font-size: 2em;
+  font-family: 'Raleway', sans-serif;
+}
+
+.hide{
+  color: #000000;
+}
+
+.show{
+    color: #FFFFFF;
+    animation-name: transi;
+    animation-duration: 0.5s;
+  }
+
+  @-webkit-keyframes transi {
+      from {color: #ff1a75;}
+      to {color: #FFFFFF;}
+  }
+
+/*All the ticks, all the constantly refreshing images just disapperared*/
+
+#cite {
+  font-size: 0.1em;
+  position: absolute;
+  top: 600px;
+  left: 1100px;
+}
+
+.second {
+  margin-top: 20%;
+}
+
+
+.appear {
+  color: #FF6A8D;
+  cursor: pointer;
+  transition: 4s;
+}
+
+
+.disappear {
+  animation-name: disappear;
+  animation-duration: 2s;
+  color: #ccefff;
+}
+
+@-webkit-keyframes disappear {
+    from {color: #008ae6;}
+    to {color: #ccefff;}
+}
+
+#ticks {
+  font-size: 3.3em;
+  color: #008ae6;
+  font-family: 'Raleway', sans-serif;
+  line-height: 62px;
+  text-transform: uppercase;
+  display: none;
+  animation-duration: 3s;
+  cursor: none;
+}
+/*Even in my bed I'm thinking*/
+.third {
+  margin-top: 20%;
+}
+
+#bed {
+  display: none;
+  color: #008ae6;
+  font-size: 2em;
+}
+
+.fourth {
+  margin-top: 20%;
+}
+
+#asking {
+  display: none;
+  color: #008ae6;
+  font-size: 2em;
+}
+
+#saidyes {
+  display: none;
+  color: #008ae6;
+  font-size: 2em;
+}
+
+
+invitations{
+  border: none;
+  min-width: 1em;
+  border-bottom: solid 2px #c9c9c9;
+  transition: border 0.3s;
+}
+invitations:focus{
+  border-bottom: solid 2px #969696;
+}
+
+.going{
+  color: #EE0077;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+/*Colors*/
+
+.fifth {
+  margin-top: 20%;
+}
+
+.orange {
+  color: #FF6600;
+  cursor: grab;
+cursor: -moz-grab;
+cursor: -webkit-grab;;
+}
+
+.blue {
+  color: #1A75FF;
+  cursor: grab;
+cursor: -moz-grab;
+cursor: -webkit-grab;;
+}
+
+.green {
+  color: #00BE3F;
+  cursor: grab;
+cursor: -moz-grab;
+cursor: -webkit-grab;;
+}
+
+.purple {
+  color: #A347FF;
+  cursor: grab;
+cursor: -moz-grab;
+cursor: -webkit-grab;;
+}
+
+#plate {
+  width: 300px;
+  height: auto;
+  margin-left: 478px;
+}
+
+.line {
+  display: flex;
+  margin-left: 572px;
+}
+
+.plate2{
+  color: #000000;
+}
+
+.orangebg {
+  background-color: #FF751A;
+}
+
+.bluebg {
+  background-color: #1A75FF;
+}
+
+.greenbg {
+  background-color: #00BE3F;
+}
+
+.purplebg {
+  background-color: #A347FF;
+}
+
+#colors {
+  display: none;
+  font-size: 2em;
+}
+
+.azul {
+  color: #008ae6;
+}
+
+.blanco {
+  color: #ffffff;
+}
+
+/*Video*/
+
+.sixth {
+  margin-top: 20%;
+}
+
+.fullvideo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+}
+
+
+#heart {
+  font-size: 7em;
+  color: #E60000;
+  cursor: pointer;
+  margin-top: -35px;
+}
+
+div a {
+  text-decoration: none;
+}
+
+#love{
+  display: none;
+  color:#ffffff;
+  font-size: 2em;
+}
